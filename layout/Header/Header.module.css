@@ -1,0 +1,16 @@
+.header {
+    @apply sticky top-0 z-50 w-full py-2 bg-white border-b border-transparent;
+}
+
+.scrollingAnimation {
+    animation-name: scrolling-header;
+    animation-fill-mode: both;
+    animation-timeline: scroll();
+    animation-range: 0 100px;
+}
+
+@keyframes scrolling-header {
+    to {
+        @apply py-1 border-gray-100;
+    }
+}
