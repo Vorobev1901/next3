@@ -3,7 +3,7 @@ import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 import PostMenu from '../PostMenu'
 import Image from 'next/image'
 import Link from 'next/link'
-import { TPost } from '@/components/shared/PostList/PostList '
+import { TPost } from '@/components/shared/PostList/PostList'
 
 type Props = {
     post: TPost
